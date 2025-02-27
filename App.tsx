@@ -1,17 +1,8 @@
-import { ScreenContent } from 'components/ScreenContent';
-import { StatusBar } from 'expo-status-bar';
+// App.tsx
+import "expo-router/entry";
 import { Slot } from 'expo-router';
-import './global.css';
-
+import "./global.css"; // Import Tailwind CSS
 
 export default function App() {
-  return <Slot />;
+  return <Slot />;;
 }
-// export default function App() {
-//   return (
-//     <>
-//       <ScreenContent title="Trang chủ" path="App.tsx" />
-//       <StatusBar style="auto" />
-//     </>
-//   );
-// }

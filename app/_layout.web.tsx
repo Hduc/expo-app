@@ -15,7 +15,7 @@ export default function WebLayout() {
 
       {/* Nội dung màn hình */}
       <View style={{ flex: 1, padding: 20 }}>
-        <Stack />
+        <Stack screenOptions={{headerShown:false}}/>
       </View>
 
       {/* Footer cố định */}
