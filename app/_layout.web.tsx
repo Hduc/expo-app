@@ -2,6 +2,7 @@
 import React from 'react';
 import { Stack } from 'expo-router';
 import { View, Text } from 'react-native';
+import "../global.css";
 
 export default function WebLayout() {
   return (
